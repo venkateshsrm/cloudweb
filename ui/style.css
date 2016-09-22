@@ -23,4 +23,23 @@ body {
     height: 200px;
 }
 
+.ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#778899;
+}
+
+.li {
+    float: left;
+}
+
+.li a {
+   display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 10%; 
+    vertical-align: middle; 
+}
+
 
