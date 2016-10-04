@@ -3,7 +3,7 @@
     <head>
         <script>
         function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
+    var x = document.forms["myForm"]["name"].value;
     if (x == null || x == "") {
         alert("Name must be filled out");
         return false;
@@ -72,12 +72,12 @@ fieldset {
    </td>
    <td>
    
-   <form width="800" action="#" method="post">
+   <form name="myform" width="800" action="#" method="post">
    <fieldset>
    <legend><b></b>USER LOGIN</legend>
    <table><tr><td>User Name:</td><td><input type="text" name="usrname" required/></td></tr>
    <tr><td>Password:</td><td><input type="text" name="pass" required/></td></tr> </table>
-   <input type="button" size="25" value="Login"/>
+   <input type="button" size="100" value="Login"/>
   
  </fieldset>
 </form>
