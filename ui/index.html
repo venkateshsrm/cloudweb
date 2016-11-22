@@ -29,16 +29,6 @@ text-align: justify;
 	padding-top:0px;
 	line-height:28px;
 }
-header.topbar{
-    background-color: #0077b3;
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    opacity: 0.7;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
 ul{
   list-style-type: none;
   margin: 0;
@@ -141,8 +131,7 @@ function myFunction() {
 
 </head>
 <body>
-<div class="topbar">
-    <br><br><br>
+<section id="index" class="section">
 <ul id="myTopnav">
 <li><a href="#">MyWebDesign</a></li>
 <li><a href="#content1">Home</a></li>
@@ -153,8 +142,7 @@ function myFunction() {
 <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
 </li>
 </ul>
-</div>
-<section id="head" class="section">
+
   
  <img class="mySlides"  id="slideimg" src="ui/dynamic-banner1.jpg" >
  <img class="mySlides"  id="slideimg" src="ui/dynamic-banner2.jpg" >
@@ -175,9 +163,9 @@ function carousel() {
     setTimeout(carousel, 4500);
 }
 </script>
-</section>
 
-<section id="content1" class="content1">>
+
+
 
 <h2 align="center">Responsive Web Application Design</h2>
 <div align="center">
