@@ -27,9 +27,12 @@ app.get('/ui/dynamic-banner3.jpg', function (req, res) {
 app.get('/ui/icon-responsive-web-design.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'icon-responsive-web-design.jpg'));
 });
-
 app.get('/ui/venkateh.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+
+app.get('/ui/AboutUs.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'AboutUs.png'));
 });
 
 
