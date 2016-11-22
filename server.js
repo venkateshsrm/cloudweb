@@ -15,8 +15,21 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/ui/dynamic.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'dynamic.jpg'));
+app.get('/ui/dynamic-banner1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'dynamic-banner1.jpg'));
+});
+app.get('/ui/dynamic-banner2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'dynamic-banner2.jpg'));
+});
+app.get('/ui/dynamic-banner3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'dynamic-banner3.jpg'));
+});
+app.get('/ui/icon-responsive-web-design.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'icon-responsive-web-design.jpg'));
+});
+
+app.get('/ui/venkateh.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
 });
 
 
