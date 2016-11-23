@@ -5,129 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Web Application | Web Design | </title>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
- <style>
- body
- {
-margin:0;
-color: #454545;
-font-family: 'Lucida Grande, Tahoma, Verdana, Arial, sans-serif'; 
-font-size: 18px; 
-color: #f2f2f2;
-background: -webkit-linear-gradient(#a1c0f6, #c5c5b6);
-background: -o-linear-gradient(red, yellow); 
-background: -moz-linear-gradient(#0077b3, #0b6193); 
-background: linear-gradient(#0b92f6, #f68e06); 
-}
-p
-{
-padding-left:16px;
-padding-right:14px;
-text-align: justify;
-font-size: 14px;
-padding-top:0px;
-line-height:30px;
-}
-header.topbar
-{
-position: fixed;
-width: 100%;
-height: 100px;
-opacity: 0.7;
-z-index: 1;
-top: 0;
-left: 0;
-font-family:'Tangerine';
-}
-h2
-{
-font-family:'Tangerine';
-font-size: 50px; 
-color: #FFFFFF;
-}
-ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #0077b3;
-}
-ul li {float: left;}
-ul li a {
-display: inline-block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
-transition: 0.3s;
-font-size: 40px;
-}
-ul li a:hover {background-color: #333;}
-ul li.icon {display: none;}
-@media screen and (max-width:600px) {
-ul li:not(:first-child) {display: none;}
-ul li.icon {
-float: right;
-display: inline-block;
-}
-}
-@media screen and (max-width:600px) {
-ul.responsive {position: relative;}
-ul.responsive li.icon {
-position: absolute;
-right: 0;
-top: 0;
-}
-ul.responsive li {
-float: none;
-display: inline;
-}
-ul.responsive li a {
-display: block;
-text-align: left;
-}
-}
-.img-circle {
-    border-radius:50%;
-	border: 4px solid #FAFAFA;
-	width:300px;
-	height:220px;
-	}
-#slideimg
-{
-width:100%;
-border-size:20px solid #fff;  
--webkit-box-shadow: 3px 3px 3px 4px #FAFAFA;
-border-radius:2px;
-margin-top:68px;
+<link rel="strlesheet" type="text/css" href="ui/style.css">
 
-}
-.section1
-{
-border-radius:30%;
-width:350px;
-height:150px;
-padding-left:2%;
-margin-bottom:0px;
-border-size:20px solid #fff; 
- }
- .section2
-{
-border-radius:50%;
-width:350px;
-height:150px;
-padding-left:2%;
-margin-bottom:0px;
-border-size:20px solid #fff; 
- }
-footer {
-    font-size: 30px;
-    background-color: #0077b3;
-    clear: left;
-    text-align: center;
-     font-family:'Tangerine';
-     line-height: 60px;
-	}
-</style>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -141,7 +20,7 @@ function myFunction() {
 </head>
 <body>
 <section id="index" class="section">
-     <header class="topbar">
+     <div class="topbar">
 <ul id="myTopnav">
 <li><a href="#">MyWebDesign</a></li>
 <li><a href="#index">Home</a></li>
@@ -152,7 +31,7 @@ function myFunction() {
 <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
 </li>
 </ul>
-</header>
+</div>
  <img class="mySlides"  id="slideimg" src="ui/dynamic-banner1.jpg" >
  <img class="mySlides"  id="slideimg" src="ui/dynamic-banner2.jpg" >
  <img class="mySlides"  id="slideimg" src="ui/dynamic-banner3.jpg">
