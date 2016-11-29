@@ -6,7 +6,29 @@
 <link rel="stylesheet" href="ui/bootstrap.css">
 <title>Web Application | Web Design | </title>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
-
+<style type="text/css">
+    @media screen and (max-width:600px) {
+ul li:not(:first-child) {display: none;}
+ul li.icon {
+display: inline-block;
+}
+}
+@media screen and (max-width:600px) {
+ul.responsive {position: relative;}
+ul.responsive li.icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+ul.responsive li {
+float: none;
+display: inline;
+}
+ul.responsive li a {
+display: block;
+text-align: left;
+}
+</style>
 <script>
 function myFunction() {
     var x = document.getElementById("nav navbar-nav");
