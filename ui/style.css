@@ -10,6 +10,17 @@ background: -o-linear-gradient(red, yellow);
 background: -moz-linear-gradient(#0077b3, #0b6193); 
 background: linear-gradient(#0b92f6, #f68e06); 
 }
+.navbar-brand {
+    float: left;
+    height: 20px;
+    padding: 15px 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 p
 {
 padding-left:16px;
