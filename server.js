@@ -36,8 +36,39 @@ app.get('/ui/AboutUs.png', function (req, res) {
 app.get('/ui/venkateh.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
 });
-
-
+app.get('/ui/fruit1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/fruit2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/fruit3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/fruit4.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/fruit5.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/dryfruit1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/dryfruit2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/peanut3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/veg1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/veg2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
+app.get('/ui/veg3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
