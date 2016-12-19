@@ -210,10 +210,7 @@ th {
   padding: 0;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@media print {
-  *,
-  *:before,
-  *:after {
+@media print { *, *:before, *:after {
     background: transparent !important;
     color: #000 !important;
     -webkit-box-shadow: none !important;
