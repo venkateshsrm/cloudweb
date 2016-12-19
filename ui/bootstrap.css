@@ -19,6 +19,17 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+navbar-brand {
+    line-height: 34px !important;
+    height: 60px !important;
+}
+navbar-brand {
+    float: left;
+    padding: 12px 15px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 45px;
+}
 body {
   margin: 0;
   padding-top:50px;
