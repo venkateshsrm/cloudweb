@@ -37,37 +37,37 @@ app.get('/ui/venkateh.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
 });
 app.get('/ui/fruit1.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'fruit1.jpg'));
 });
 app.get('/ui/fruit2.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'fruit2.jpg'));
 });
 app.get('/ui/fruit3.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'fruit3.jpg'));
 });
 app.get('/ui/fruit4.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'fruit4.jpg'));
 });
 app.get('/ui/fruit5.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'fruit5.jpg'));
 });
 app.get('/ui/dryfruit1.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'dryfruit1.jpg'));
 });
 app.get('/ui/dryfruit2.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'dryfruit2.jpg'));
 });
 app.get('/ui/peanut3.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'peanut3.jpg'));
 });
 app.get('/ui/veg1.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'veg1.jpg'));
 });
 app.get('/ui/veg2.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'veg2.jpg'));
 });
 app.get('/ui/veg3.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'venkateh.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'veg3.jpg'));
 });
 
 
